@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="health.water.com.praise.MainActivity">
+
+
+
+   <health.water.com.praise.PraiseView
+       android:id="@+id/ttt"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" />
+
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="增加"
+       android:onClick="add"
+       />
+
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:onClick="reduce"
+       android:text="减少"
+       />
+   <Button
+
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:onClick="praise"
+       android:text="点赞"
+       />
+</LinearLayout>
